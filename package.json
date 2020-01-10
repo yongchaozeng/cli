@@ -1,0 +1,21 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "macaw": "./bin/macaw.js"
+  },
+  "devDependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.1.0",
+    "execa": "^4.0.0",
+    "glob": "^7.1.6",
+    "inquirer": "^7.0.3",
+    "metalsmith": "^2.3.0",
+    "ora": "^4.0.3"
+  },
+  "dependencies": {
+    "download-git-repo": "^3.0.2"
+  }
+}
